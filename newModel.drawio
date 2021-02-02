@@ -1,13 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2021-02-02T07:21:43.508Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="ybraK38F3C0o8_pJISPF" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-02T08:38:04.861Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="5uCVDkuCXqTk44naiAAG" version="14.2.9" type="github">
   <diagram id="UE8eQSSXFoSJiq7shUUV" name="Page-1">
     <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="14kvWUV_quERHJc_PtYc-1" value="csm数据库" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="14kvWUV_quERHJc_PtYc-1" value="公用数据库" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="14kvWUV_quERHJc_PtYc-2" value="csm" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="i0fkb7L7ZnLaU_ZSNFZ2-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="14kvWUV_quERHJc_PtYc-2" target="i0fkb7L7ZnLaU_ZSNFZ2-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="380" />
+              <mxPoint x="170" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14kvWUV_quERHJc_PtYc-2" value="oa系统web端" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="110" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="d7TN0npvr_UU3JJ0cC5B-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startSize=3;endSize=3;" parent="1" source="d7TN0npvr_UU3JJ0cC5B-7" target="14kvWUV_quERHJc_PtYc-2" edge="1">
@@ -48,7 +56,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="14kvWUV_quERHJc_PtYc-6" value="csw" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="14kvWUV_quERHJc_PtYc-6" value="客户服务系统" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="590" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="14kvWUV_quERHJc_PtYc-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startSize=3;endSize=3;" parent="1" source="14kvWUV_quERHJc_PtYc-34" target="14kvWUV_quERHJc_PtYc-1" edge="1">
@@ -59,21 +67,6 @@
         </mxCell>
         <mxCell id="14kvWUV_quERHJc_PtYc-34" value="写入读取" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="150" y="240" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="14kvWUV_quERHJc_PtYc-40" value="其他系统：crm，erm等" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="110" y="420" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="14kvWUV_quERHJc_PtYc-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startSize=3;endSize=3;" parent="1" source="14kvWUV_quERHJc_PtYc-41" target="14kvWUV_quERHJc_PtYc-40" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="14kvWUV_quERHJc_PtYc-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startSize=3;endSize=3;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="14kvWUV_quERHJc_PtYc-41" target="14kvWUV_quERHJc_PtYc-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="230" y="370" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="14kvWUV_quERHJc_PtYc-41" value="hessian" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="150" y="370" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="d7TN0npvr_UU3JJ0cC5B-5" value="公共业务写入，调用接口" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="510" y="300" width="40" height="20" as="geometry" />
@@ -86,6 +79,12 @@
             <mxPoint x="354" y="310" as="sourcePoint" />
             <mxPoint x="230" y="310" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="i0fkb7L7ZnLaU_ZSNFZ2-8" value="oa数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i0fkb7L7ZnLaU_ZSNFZ2-10" value="读取写入" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="370" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
